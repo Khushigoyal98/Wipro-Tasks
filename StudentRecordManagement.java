@@ -155,7 +155,7 @@ class StudentRecord implements Student {
     }
 }
 
-public class StudentRecordManagement {
+public class StudentRecordManagement extends StudentRecord{
     public static void main(String[] args) {
         StudentRecord studentRecord = new StudentRecord();
         Scanner scan = new Scanner(System.in);
